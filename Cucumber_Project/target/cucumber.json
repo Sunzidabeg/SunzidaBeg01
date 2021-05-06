@@ -1,0 +1,81 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5585526300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDef.Before_run()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "",
+        "description": "",
+        "id": "go-to-the-google-search-page-and-search-for-ducks;",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 186260700,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "that I have gone to the Google page",
+            "match": {
+              "location": "StepDef.that_I_have_gone_to_the_Google_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 178794300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I add ducks to the search box",
+            "match": {
+              "location": "StepDef.i_add_ducks_to_the_search_box()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3669523200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "click the Search Button",
+            "match": {
+              "location": "StepDef.click_the_Search_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5232304200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "ducks should be shown in the results",
+            "match": {
+              "location": "StepDef.ducks_should_be_shown_in_the_results()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Go to the Google search page and search for ducks",
+    "description": "",
+    "id": "go-to-the-google-search-page-and-search-for-ducks",
+    "keyword": "Feature",
+    "uri": "features/search.feature"
+  }
+]
